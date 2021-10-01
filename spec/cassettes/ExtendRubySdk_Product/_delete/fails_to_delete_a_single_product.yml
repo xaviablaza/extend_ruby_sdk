@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/non_existent_reference_id
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+      Date:
+      - Fri, 01 Oct 2021 10:41:05 GMT
+      X-Amzn-Requestid:
+      - 4f5b18d1-57ef-4c2d-8034-80a74ac5f47d
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - GhjWQGIMoAMFdfQ=
+      X-Amzn-Trace-Id:
+      - Root=1-6156e5c1-5f3f67db6b78c2d4677769c6
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 fab4d1785391ca36e07af7bad114dd9c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C3
+      X-Amz-Cf-Id:
+      - moJlj70yTBMl_GaGRjodsclwMd_Pvrv17bsgvj9sKiOjWvIdLXgciQ==
+    body:
+      encoding: UTF-8
+      string: '{"code":"resource_not_found","message":"The resource requested cannot
+        be found."}'
+  recorded_at: Fri, 01 Oct 2021 10:41:06 GMT
+recorded_with: VCR 6.0.0
