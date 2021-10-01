@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products
+    body:
+      encoding: UTF-8
+      string: '{"data":"Sample Brand","category":"Sample Category","description":"Sample
+        Description","imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","mfrWarranty":{"parts":12,"labor":12,"url":"http://example.com"},"price":{"currencyCode":"USD","amount":1999},"title":"Explosive
+        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"}}'
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '773'
+      Connection:
+      - keep-alive
+      Date:
+      - Fri, 01 Oct 2021 10:25:33 GMT
+      X-Amzn-Requestid:
+      - b1cb0c57-0ed8-4c08-980d-61b91a523ef4
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - GhhEqFZTIAMFvmQ=
+      X-Amzn-Trace-Id:
+      - Root=1-6156e21d-130439894de91ef948e63f86
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 76bac52618e160b145d8ea3139571a77.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C3
+      X-Amz-Cf-Id:
+      - dFqv41eddhGD0-sMfGdNZzu5xpsY9cfWwvHn4UPuN55dbOj0qNX1YQ==
+    body:
+      encoding: UTF-8
+      string: '{"category":"Sample Category","description":"Sample Description","imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","mfrWarranty":{"parts":12,"labor":12,"url":"http://example.com"},"price":{"amount":1999,"currencyCode":"USD"},"title":"Explosive
+        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"},"deletedAt":null,"enabled":true,"warrantyStatus":"pending","storeId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","updatedAt":1633083933786,"createdAt":1633083933786,"plans":[],"reimbursementAmount":{"amount":1999,"currencyCode":"USD"}}'
+  recorded_at: Fri, 01 Oct 2021 10:25:33 GMT
+recorded_with: VCR 6.0.0
