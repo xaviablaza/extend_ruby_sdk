@@ -28,7 +28,7 @@ RSpec.describe ExtendRubySdk::Product do
       client = ExtendRubySdk::Client.new(sandbox: true)
       product = described_class.create(
         {
-          'data' => 'Sample Brand',
+          'brand' => 'Sample Brand',
           'category' => 'Sample Category',
           'description' =>'Sample Description',
           'imageUrl' => 'https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ',
@@ -41,7 +41,7 @@ RSpec.describe ExtendRubySdk::Product do
             'currencyCode' => 'USD',
             'amount' => 1999
           },
-          'title' =>'Explosive Tennis Balls',
+          'title' => 'Explosive Tennis Balls',
           "referenceId" => "2324f800-7575-4c65-bd2c-588c89e8ab7f",
           'parentReferenceId' => "2324f800-7575-4c65-bd2c-588c89e8ab7f",
           'identifiers' => {
