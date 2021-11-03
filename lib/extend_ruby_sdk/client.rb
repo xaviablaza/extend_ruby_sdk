@@ -7,8 +7,9 @@ module ExtendRubySdk
     SANDBOX_API_ENDPOINT = "https://api-demo.helloextend.com"
     API_ENDPOINT = "https://api.helloextend.com"
 
-    def initialize(sandbox: false)
+    def initialize(sandbox: false, client_ip: '')
       @sandbox = sandbox
+      @client_ip = client_ip
     end
 
     def get(path, headers = default_get_headers)
@@ -47,8 +48,9 @@ module ExtendRubySdk
       {
         'Content-Type' => 'application/json',
         access_token_key_name => access_token,
-        'Accept' => 'application/json; version=2021-04-01'
-      }
+        'Accept' => 'application/json; version=2021-04-01',
+        'X-Extend-Client-IP' => @client_ip
+      }.reject { |_k, v| v.blank? }
     end
 
     def default_post_headers
