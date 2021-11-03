@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/contracts
+    body:
+      encoding: UTF-8
+      string: '{"customer":{"name":"Bob Ross","email":"BobRoss@gmail.com","phone":"123-456-7890","billingAddress":{"address1":"535
+        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"},"shippingAddress":{"address1":"535
+        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"}},"isTest":true,"plan":{"planId":"10001-misc-elec-adh-replace-1y","purchasePrice":{"currencyCode":"USD","amount":1999}},"poNumber":"ABC-123","product":{"referenceId":"SKU-123-456","purchasePrice":{"currencyCode":"USD","amount":1999}},"source":{"agentId":"partner1234","channel":"web","integratorId":"netsuite","locationId":"store573","platform":"magento"},"transactionDate":1563388069,"transactionId":"99999999","transactionTotal":{"currencyCode":"USD","amount":1999},"terms":{"termsId":"154ebea0-6c1b-46a4-b166-03224633052","version":"1"}}'
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 422
+      message: ''
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '81'
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 03 Nov 2021 06:55:50 GMT
+      X-Amzn-Requestid:
+      - 855e0aa8-10fd-4cb7-aebf-d8a8b8b92235
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - INzSDGODoAMFvzA=
+      X-Amzn-Trace-Id:
+      - Root=1-61823273-24d334956bcd41055973723a
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Error from cloudfront
+      Via:
+      - 1.1 e1635931be815d9b175f758edc0125ed.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - LAX50-C3
+      X-Amz-Cf-Id:
+      - qjOkRxbG_eu36Jo4Qe6RCGDSKehyhn4xFi3n6Lci-QG91jbsoJgPow==
+    body:
+      encoding: UTF-8
+      string: '{"code":"product_not_exists","message":"Cannot find product with id
+        SKU-123-456"}'
+  recorded_at: Wed, 03 Nov 2021 06:55:50 GMT
+recorded_with: VCR 6.0.0
