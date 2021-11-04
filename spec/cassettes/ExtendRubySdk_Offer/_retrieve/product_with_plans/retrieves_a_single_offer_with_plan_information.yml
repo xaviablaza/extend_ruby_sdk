@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-demo.helloextend.com/offers?productId=2068262&storeId=e6f902e9-9942-4fcb-9b23-29975ee18dfc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '5293'
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 04 Nov 2021 17:57:03 GMT
+      X-Amzn-Requestid:
+      - cdad390d-16d5-4e75-a8b3-5174e1ce3381
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - ISnFaHiBoAMFezw=
+      Cache-Control:
+      - max-age=600
+      X-Amzn-Trace-Id:
+      - Root=1-61841eef-775f710e3fc2ce0038df3cf6
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ce6cbaba4ae4791f264842567fcc912a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ORD52-C1
+      X-Amz-Cf-Id:
+      - 1dxg2o37zLUpM8u6pkioN4VILS6g_Q7n1qcZfZzzvr3rE7GbFKRSpw==
+    body:
+      encoding: UTF-8
+      string: '{"marketing":{"adh":{"offerTypeButtons":{"buttonTermLengthYears":"Year","learnMoreButtonIcon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/productDisplayPage.icon_question_mark_base_replace.svg","headlineCTA":"Add
+        accident protection offered by","learnMoreButtonText":"Learn more"},"aftermarketModal":{"purchaseInfo4":"Quantity
+        purchased:","purchaseInfo3":"Product Value:","purchaseInfo2":"Date of purchase:","headline":"Select
+        a plan to extend your product protection","purchaseInfo1":"Protecting your:"},"aftermarketModalExpired":{"button":"Continue
+        to store","bullet1":"Uh oh, we cannot offer a protection plan for this product
+        because the manufacturer''s warranty is expired or about to expire","headline":"We
+        can no longer offer a plan on this product :-(","bullet2":"However, you can
+        add an Extend protection plan on any eligible product you purchase today at
+        checkout from this store!"},"learnMoreModal":{"whyExtend2Icon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/learnMoreModal.icon_0_base_replace.svg","planDetailsLinkText":"See
+        plan details","coverageBulletsHeading":"This plan covers:","coverageBullet3Mobile":"Extended
+        malfunction protection","whyExtend1":"Friendly support 24/7","coverageBullet2Mobile":"Accidental
+        damage such as scratches, cracks and drops","headlineMobile":"Protect your
+        watch right away, even from accidents, with a protection plan that begins
+        at the time of purchase.","whyExtendHeading":"Why choose Extend?","whyExtend1Icon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/learnMoreModal.icon_heart_base_replace.svg","whyExtend2":"No
+        fees. No deductibles.","coverageBullet1":"Fast and free repairs or replacements","coverageBullet3":"Extended
+        malfunction and wear-and-tear protection","coverageBullet2":"Accidental damage
+        such as scratches, cracks and drops","headline":"Protect your watch right
+        away, even from accidents, with a protection plan that begins at the time
+        of purchase.","backgroundImageUrl":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/learnMoreModal.image_watch.jpg"},"offerTypeCTA":{"button":"Add
+        a protection plan for"},"aftermarketModalConsumed":{"button":"Continue to
+        store","bullet1":"Looks like you already purchased an Extend protection plan
+        for this product!","headline":"This product is already protected. Nice!","bullet2":"In
+        the meantime, why not check out more eligible products from this store?"},"offerTypeModal":{"benefit3":"Accident
+        protection","benefit1Icon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/offerModal.bulletIcon1_clock_base_replace.svg","benefit1":"Repair
+        or replace","benefit3Icon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/offerModal.bulletIcon3_glass_adh_replace.svg","benefit2":"Easy
+        online claims","planDetailsLinkText":"Plan details & FAQ","declineButton":"No,
+        thanks","benefit2Icon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/offerModal.bulletIcon2_shield_base_replace.svg","buttonTermLengthYears":"Year","headlineMobile":"Get
+        expanded protection on your watch.","footerLegal":"Offered and sold by Extend","planBannerBestValue":"Best
+        Value!","buttonLiteralProtectionPlan":"Protection Plan","headline":"Protect
+        your watch from normal wear and tear as well as accidental damage.","acceptButton":"Add
+        protection","planBannerBestSeller":"Best Seller!"},"updatedAt":1635969952105,"planId":"A1-AAWAT-1y","locale":"en_US"}},"merchantLogo":"https://extendcoreapidemoextendc-storelogosbucket03b65aac-zpk5o5uvjj5d.s3.amazonaws.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/logo-971dd13e-3268-480f-b7b0-154b308eb4a5.png","plans":{"adh":[{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":12,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":8499,"title":"Extend
+        Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-1y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-1y"},{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":24,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":11900,"title":"Extend
+        Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-2y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-2y"},{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":36,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":16900,"title":"Extend
+        Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-3y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-3y"}],"base":[],"roadhazard":[],"recommended":"adh"},"product":{"listPrice":160000,"imageUrl":"https://s3.amazonaws.com/touchofmodern-production/products/001/996/494/1e1783b1ba420e46c9073056868d955d_medium.jpg?1603732198","title":"Garmin
+        Marq Aviator Performance Edition Modern Tool Watch // 010-02567-10"}}'
+  recorded_at: Thu, 04 Nov 2021 17:57:03 GMT
+recorded_with: VCR 6.0.0

@@ -29,29 +29,29 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 03 Nov 2021 03:51:44 GMT
+      - Thu, 04 Nov 2021 17:57:03 GMT
       X-Amzn-Requestid:
-      - 06036c00-a3a2-4030-b963-c6298e385430
+      - 18ef742e-47b2-4e54-904f-b3daa5333d85
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - INYUnFCWoAMFhKw=
+      - ISnFeGc5oAMFVGA=
       Cache-Control:
       - max-age=600
       X-Amzn-Trace-Id:
-      - Root=1-61820750-3df03679042dee2874bdf8a3
+      - Root=1-61841eef-7cbfce003bc74bb66eec94f7
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 327f036b81d82ab4a19ea85cef81e3bf.cloudfront.net (CloudFront)
+      - 1.1 b55214c298a6470ca4f296a9e493d5f2.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C3
+      - ORD52-C1
       X-Amz-Cf-Id:
-      - SpsjP7VWqxyV53qAjfDy76n-vbJnwR73kD6CBd494AcgLlUZ-v_sdw==
+      - _YwyN27C1B7mj9O3GbmNudnnmblnEXb-Kc_J0-Xl4J3uSWnkAly8eg==
     body:
       encoding: UTF-8
       string: '{"marketing":{},"merchantLogo":"https://extendcoreapidemoextendc-storelogosbucket03b65aac-zpk5o5uvjj5d.s3.amazonaws.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/logo-971dd13e-3268-480f-b7b0-154b308eb4a5.png","plans":{"adh":[],"base":[],"roadhazard":[],"recommended":"base"},"product":{}}'
-  recorded_at: Wed, 03 Nov 2021 03:51:44 GMT
+  recorded_at: Thu, 04 Nov 2021 17:57:03 GMT
 recorded_with: VCR 6.0.0
