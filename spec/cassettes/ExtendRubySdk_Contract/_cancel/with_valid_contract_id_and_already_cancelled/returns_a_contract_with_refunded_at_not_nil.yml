@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/contracts/a148620e-406a-4600-8cb3-b40c37dbf0ea/refund?commit=true
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2254'
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 04 Nov 2021 23:03:32 GMT
+      X-Amzn-Requestid:
+      - 166361a3-f570-4280-ae2d-4971b1ae68d2
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - ITT9IH0VIAMFqkw=
+      X-Amzn-Trace-Id:
+      - Root=1-618466ba-161a62951806989c6332f344
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 5d7fa168c29a6f16a8c659b5e9ede8a7.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - ORD52-C3
+      X-Amz-Cf-Id:
+      - 0HLS5WbLTOOhxZIxiwPGYqy8SHK2-lRwcGs2iJ7hNXX5ctiHfpxrrw==
+    body:
+      encoding: UTF-8
+      string: '{"currency":"USD","refundAmount":{"currencyCode":"USD","amount":8499},"refundedAt":1635984000000,"status":"refund_accepted","adminContractId":"1001201548","isTest":true,"adminSyncStatus":"synced","sellerId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","transactionDate":1636066219000,"syncedAt":1636066585053,"product":{"fulfillmentDate":1636066468968,"serialNumber":"ABCD123456","purchasePrice":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"},"title":"Garmin
+        Marq Aviator Performance Edition Modern Tool Watch // 010-02567-10","transactionDate":1636066219000,"referenceId":"2068262","transactionId":"99999999","manufacturerWarrantyLengthParts":12,"imageUrl":"https://s3.amazonaws.com/touchofmodern-production/products/001/996/494/1e1783b1ba420e46c9073056868d955d_medium.jpg?1603732198","manufacturerWarrantyLengthLabor":12,"reimbursementAmount":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"},"sku":"010-02567-10","brand":"Garmin
+        MARQ","listPrice":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"}},"terms":{"termsId":"ALLPRODFORTEGRA","version":"3"},"transactionTotal":{"amount":170000,"currencyCode":"USD","formattedAmount":"$1,700.00"},"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"amount":8499,"currencyCode":"USD","formattedAmount":"$84.99"},"planSku":"EXTWATCH9","subcategory":"Watches","category":"service_contract","expectedPrice":{"amount":8499,"currencyCode":"USD","formattedAmount":"$84.99"}},"createdAt":1636066468968,"source":{"channel":"web","agentId":"partner1234","locationId":"store573","platform":"magento","integratorId":"netsuite"},"sellerName":"Touch
+        of Modern","transactionId":"99999999","poNumber":"ABC-123","updatedAt":1636066585053,"cancelledAt":1636066576297,"customer":{"name":"Alex
+        Doe","shippingAddress":{"city":"San Francisco","address1":"1025 Sansome Street","countryCode":"US","provinceCode":"CA","postalCode":"94111"},"billingAddress":{"city":"San
+        Francisco","address1":"1025 Sansome Street","countryCode":"US","provinceCode":"CA","postalCode":"94111"},"phone":"234-567-8901","email":"user@gmail.com"},"store":{"adminDealerNumber":"TOUCHOFMODERN001","adminManufacturer":"TOUCHOFMODERN","adminLocationNumber":"160057"},"id":"a148620e-406a-4600-8cb3-b40c37dbf0ea"}'
+  recorded_at: Thu, 04 Nov 2021 23:03:32 GMT
+recorded_with: VCR 6.0.0

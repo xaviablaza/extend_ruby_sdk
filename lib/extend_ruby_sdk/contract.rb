@@ -19,11 +19,24 @@ module ExtendRubySdk
       end
 
       def update(contract_id, data:, client:)
-        contract = client.put(contract_path(contract_id), data)
+        contract = client.put(contract_path(contract_id), data).with_indifferent_access
         build contract
       end
 
+      def cancel(contract_id, client:, store_id:, commit: true)
+        contract = client.post(
+          cancel_path(store_id, contract_id),
+          query: { "commit" => commit }
+        ).with_indifferent_access
+        build contract
+      end
+      alias refund cancel
+
       private
+
+      def cancel_path(store_id, contract_id)
+        "#{path(store_id)}/#{contract_id}/refund"
+      end
 
       def contract_path(contract_id)
         "contracts/#{contract_id}"
@@ -48,6 +61,9 @@ module ExtendRubySdk
           contract[:transactionTotal],
           contract[:terms],
           contract[:isTest],
+          contract[:refundAmount],
+          contract[:status],
+          contract[:refundedAt],
           contract[:createdAt],
           contract[:updatedAt]
         )
@@ -66,6 +82,9 @@ module ExtendRubySdk
       transaction_total,
       terms,
       is_test,
+      refund_amount,
+      status,
+      refunded_at,
       created_at,
       updated_at
     )
@@ -80,9 +99,12 @@ module ExtendRubySdk
       @transaction_total = transaction_total
       @terms = terms
       @is_test = is_test
+      @refund_amount = refund_amount
+      @status = status
+      @refunded_at = refunded_at
       @created_at = created_at
       @updated_at = updated_at
     end
-    attr_reader :id, :customer, :plan, :po_number, :product, :source, :transaction_date, :transaction_id, :transaction_total, :terms, :is_test, :created_at, :updated_at
+    attr_reader :id, :customer, :plan, :po_number, :product, :source, :transaction_date, :transaction_id, :transaction_total, :terms, :is_test, :refund_amount, :status, :refunded_at, :created_at, :updated_at
   end
 end

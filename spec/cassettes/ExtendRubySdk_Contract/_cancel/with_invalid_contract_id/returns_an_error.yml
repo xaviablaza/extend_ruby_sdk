@@ -1,11 +1,11 @@
 ---
 http_interactions:
 - request:
-    method: delete
-    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/non_existent_reference_id
+    method: post
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/contracts/invalid-contract-id/refund?commit=false
     body:
-      encoding: US-ASCII
-      string: ''
+      encoding: UTF-8
+      string: "{}"
     headers:
       Content-Type:
       - application/json
@@ -25,32 +25,31 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '81'
+      - '60'
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Nov 2021 22:40:49 GMT
+      - Thu, 04 Nov 2021 22:55:57 GMT
       X-Amzn-Requestid:
-      - 2d938b0a-b3e4-4977-99cc-c2d35ca6a72e
+      - 82e36e6b-3f7c-43d7-a805-0b365a96a8ed
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - ITQpvFyJIAMF3lQ=
+      - ITS2LEVVIAMFQUw=
       X-Amzn-Trace-Id:
-      - Root=1-61846171-27223fed40d66f3b3b662ede
+      - Root=1-618464f4-33a66f5b6a88e26114be6f40
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Error from cloudfront
       Via:
-      - 1.1 57827d2e1d333a2c5c0e53aa1e31a894.cloudfront.net (CloudFront)
+      - 1.1 4d5a0f70d1ac913d9a695c407458cff7.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - ORD52-C3
       X-Amz-Cf-Id:
-      - GBXpEdL-bIcfi2B7O1fJ1Ok0Y8jviykmHg3_Vw5KB2BWagE7uGfmXQ==
+      - 36-4nz-ZrTlmU8bprjG9K7AgtbEX8QEkRDkDY3K-3aTYdpw38odnWQ==
     body:
       encoding: UTF-8
-      string: '{"code":"resource_not_found","message":"The resource requested cannot
-        be found."}'
-  recorded_at: Thu, 04 Nov 2021 22:40:49 GMT
+      string: '{"code":"resource_not_found","message":"Contract not found"}'
+  recorded_at: Thu, 04 Nov 2021 22:55:57 GMT
 recorded_with: VCR 6.0.0

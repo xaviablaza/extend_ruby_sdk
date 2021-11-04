@@ -16,8 +16,8 @@ module ExtendRubySdk
       HTTParty.get(url(path), { headers: headers })
     end
 
-    def post(path, body = {}, headers = default_post_headers)
-      HTTParty.post(url(path), { body: body.to_json, headers: headers })
+    def post(path, body = {}, headers = default_post_headers, query: {})
+      HTTParty.post(url(path), { body: body.to_json, headers: headers, query: query })
     end
 
     def put(path, body = {}, headers = default_put_headers)

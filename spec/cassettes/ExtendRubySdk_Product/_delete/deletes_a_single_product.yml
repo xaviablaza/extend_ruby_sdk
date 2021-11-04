@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: delete
-    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/2324f800-7575-4c65-bd2c-588c89e8ab7f
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/2324f800-7575-4c65-bd2c-588c89e8ab7d
     body:
       encoding: US-ASCII
       string: ''
@@ -29,27 +29,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Fri, 01 Oct 2021 10:38:18 GMT
+      - Thu, 04 Nov 2021 22:40:49 GMT
       X-Amzn-Requestid:
-      - ecf5588c-dbc7-4815-90b5-8396f2e8392d
+      - 8bab9ea6-96a8-4973-9a20-1ecca94f4815
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - Ghi7VFxSoAMF92g=
+      - ITQo6HdVoAMFq-w=
       X-Amzn-Trace-Id:
-      - Root=1-6156e515-41cdc76d5844dbcb11d2a5eb
+      - Root=1-6184616c-40c18c031e723e422d5cc957
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 aa51978e765e0391b9803b3ca5afe868.cloudfront.net (CloudFront)
+      - 1.1 8750e421872660ea93b3b21c913caba9.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C3
+      - ORD52-C3
       X-Amz-Cf-Id:
-      - VLV-dZ7MO0OxpbL1qW8TIlVUknV6iMH4ebkbsshTYwSxv6PX7vfM5w==
+      - 2FvuO60TR_M45WUPI334RqlMS1A_47DaC3YrMOnpozUp5Z-G1yhDqA==
     body:
       encoding: UTF-8
       string: success
-  recorded_at: Fri, 01 Oct 2021 10:38:18 GMT
+  recorded_at: Thu, 04 Nov 2021 22:40:49 GMT
 recorded_with: VCR 6.0.0

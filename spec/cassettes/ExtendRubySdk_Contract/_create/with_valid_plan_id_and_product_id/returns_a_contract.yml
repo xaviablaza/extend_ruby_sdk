@@ -7,7 +7,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"customer":{"name":"Bob Ross","email":"BobRoss@gmail.com","phone":"123-456-7890","billingAddress":{"address1":"535
         Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"},"shippingAddress":{"address1":"535
-        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"}},"isTest":true,"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"currencyCode":"USD","amount":8499}},"poNumber":"ABC-123","product":{"referenceId":"2068262","purchasePrice":{"currencyCode":"USD","amount":160000}},"source":{"agentId":"partner1234","channel":"web","integratorId":"netsuite","locationId":"store573","platform":"magento"},"transactionDate":1563388069,"transactionId":"99999999","transactionTotal":{"currencyCode":"USD","amount":170000},"terms":{"termsId":"154ebea0-6c1b-46a4-b166-03224633052","version":"1"}}'
+        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"}},"isTest":true,"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"currencyCode":"USD","amount":8499}},"poNumber":"ABC-123","product":{"referenceId":"2068262","purchasePrice":{"currencyCode":"USD","amount":160000}},"source":{"agentId":"partner1234","channel":"web","integratorId":"netsuite","locationId":"store573","platform":"magento"},"transactionDate":1636066219,"transactionId":"99999999","transactionTotal":{"currencyCode":"USD","amount":170000},"terms":{"termsId":"154ebea0-6c1b-46a4-b166-03224633052","version":"1"}}'
     headers:
       Content-Type:
       - application/json
@@ -31,29 +31,29 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Nov 2021 19:08:59 GMT
+      - Thu, 04 Nov 2021 22:54:29 GMT
       X-Amzn-Requestid:
-      - db492627-6534-4e9e-a331-26a0e52b495b
+      - 950c6e6c-380c-4eaf-8f12-6ec63ccba921
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - ISxnqGXPIAMFprA=
+      - ITSppH9coAMFYCg=
       X-Amzn-Trace-Id:
-      - Root=1-61842fca-7402be59532cd0ed6b8cce7c
+      - Root=1-618464a3-045dc8f365aca9e2175865c9
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 62a7001a7a5cdae0c372f387ebcd07e5.cloudfront.net (CloudFront)
+      - 1.1 a9f3edcfdbaa43222a2f939b0ab9c363.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - ORD53-C1
+      - LAX3-C2
       X-Amz-Cf-Id:
-      - YEFBpTZYkupfUnBCu7AX5JvDkcjrcqUq2I3y5gmKW07C-HYGZadRIw==
+      - 4QV1tv6oJDolEeSNogTMbP4r19v5J0tjqzu4j6jHdZNIjXFRzu52bg==
     body:
       encoding: UTF-8
       string: '{"customer":{"name":"Bob Ross","email":"BobRoss@gmail.com","phone":"123-456-7890","billingAddress":{"address1":"535
         Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"},"shippingAddress":{"address1":"535
-        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"}},"isTest":true,"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"amount":8499}},"poNumber":"ABC-123","product":{"referenceId":"2068262","purchasePrice":{"amount":160000,"currencyCode":"USD"}},"source":{"agentId":"partner1234","channel":"web","integratorId":"netsuite","locationId":"store573","platform":"magento"},"transactionDate":1563388069,"transactionId":"99999999","transactionTotal":{"currencyCode":"USD","amount":170000},"terms":{"termsId":"154ebea0-6c1b-46a4-b166-03224633052","version":"1"},"id":"90b0ea91-b80a-46c4-b57c-269e5ec19a7c"}'
-  recorded_at: Thu, 04 Nov 2021 19:08:59 GMT
+        Mission Street","address2":"11th Floor","city":"San Francisco","countryCode":"US","postalCode":"94526","provinceCode":"CA"}},"isTest":true,"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"amount":8499}},"poNumber":"ABC-123","product":{"referenceId":"2068262","purchasePrice":{"amount":160000,"currencyCode":"USD"}},"source":{"agentId":"partner1234","channel":"web","integratorId":"netsuite","locationId":"store573","platform":"magento"},"transactionDate":1636066219,"transactionId":"99999999","transactionTotal":{"currencyCode":"USD","amount":170000},"terms":{"termsId":"154ebea0-6c1b-46a4-b166-03224633052","version":"1"},"id":"a148620e-406a-4600-8cb3-b40c37dbf0ea"}'
+  recorded_at: Thu, 04 Nov 2021 22:54:28 GMT
 recorded_with: VCR 6.0.0

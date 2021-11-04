@@ -7,7 +7,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"brand":"Sample Brand","category":"Sample Category","description":"Sample
         Description","imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","mfrWarranty":{"parts":12,"labor":12,"url":"http://example.com"},"price":{"currencyCode":"USD","amount":1999},"title":"Explosive
-        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"}}'
+        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7d","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"}}'
     headers:
       Content-Type:
       - application/json
@@ -31,29 +31,29 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 21 Oct 2021 03:21:50 GMT
+      - Thu, 04 Nov 2021 22:39:30 GMT
       X-Amzn-Requestid:
-      - 33c1851d-0059-40b7-b7f5-554d029f0063
+      - '08d462ee-10fa-4687-b285-547cb15a8c10'
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - HidwQGX6IAMF6VA=
+      - ITQdbE10oAMFZPA=
       X-Amzn-Trace-Id:
-      - Root=1-6170dcce-2c21e81a2b3b12f62eb01b29
+      - Root=1-61846122-421dcbf022cad98009d164c7
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 9750fb05bdbea09766e7d3b62ad12c45.cloudfront.net (CloudFront)
+      - 1.1 57827d2e1d333a2c5c0e53aa1e31a894.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - ORD52-C1
+      - ORD52-C3
       X-Amz-Cf-Id:
-      - 1nYvXKtFNcqjGXuMlV9I4gBAqHkELaIF3RVPXTkPo8LhhdoE5e2Vvg==
+      - UnoYg5624nnDlcN3IBQCNGYOSm8Y2iE4vahe8Hq1ZQZioMz9uP_Hzw==
     body:
       encoding: UTF-8
       string: '{"brand":"Sample Brand","category":"Sample Category","description":"Sample
         Description","imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","mfrWarranty":{"parts":12,"labor":12,"url":"http://example.com"},"price":{"amount":1999,"currencyCode":"USD"},"title":"Explosive
-        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"},"deletedAt":null,"enabled":true,"warrantyStatus":"pending","storeId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","updatedAt":1634786510421,"createdAt":1634786510421,"plans":[],"reimbursementAmount":{"amount":1999,"currencyCode":"USD"}}'
-  recorded_at: Thu, 21 Oct 2021 03:21:50 GMT
+        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7d","parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","identifiers":{"sku":"SAMPLE-SKU","gtin":"012345678901234","upc":"0123456789012","asin":"0123456789","barcode":"123"},"deletedAt":null,"enabled":true,"warrantyStatus":"pending","storeId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","updatedAt":1636065570747,"createdAt":1636065570747,"plans":[],"reimbursementAmount":{"amount":1999,"currencyCode":"USD"}}'
+  recorded_at: Thu, 04 Nov 2021 22:39:30 GMT
 recorded_with: VCR 6.0.0

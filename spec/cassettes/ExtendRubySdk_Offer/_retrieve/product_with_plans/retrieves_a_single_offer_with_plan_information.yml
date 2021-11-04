@@ -29,27 +29,27 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Nov 2021 17:57:03 GMT
+      - Thu, 04 Nov 2021 23:04:05 GMT
       X-Amzn-Requestid:
-      - cdad390d-16d5-4e75-a8b3-5174e1ce3381
+      - cfea57ec-9c0d-426c-8042-0b5813bb4f7b
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - ISnFaHiBoAMFezw=
+      - ITUDzFKrIAMFlbw=
       Cache-Control:
       - max-age=600
       X-Amzn-Trace-Id:
-      - Root=1-61841eef-775f710e3fc2ce0038df3cf6
+      - Root=1-618466e4-45fde11133aef2ce09519594
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 ce6cbaba4ae4791f264842567fcc912a.cloudfront.net (CloudFront)
+      - 1.1 57827d2e1d333a2c5c0e53aa1e31a894.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - ORD52-C1
+      - ORD52-C3
       X-Amz-Cf-Id:
-      - 1dxg2o37zLUpM8u6pkioN4VILS6g_Q7n1qcZfZzzvr3rE7GbFKRSpw==
+      - _hULog0smhEYvGvua6zNad0DrCYZPAbvzk6_RPjb4F4uLts8v5wfDg==
     body:
       encoding: UTF-8
       string: '{"marketing":{"adh":{"offerTypeButtons":{"buttonTermLengthYears":"Year","learnMoreButtonIcon":"https://helloextend-static-assets.s3.amazonaws.com/offers-dynamic-messaging/productDisplayPage.icon_question_mark_base_replace.svg","headlineCTA":"Add
@@ -82,10 +82,10 @@ http_interactions:
         expanded protection on your watch.","footerLegal":"Offered and sold by Extend","planBannerBestValue":"Best
         Value!","buttonLiteralProtectionPlan":"Protection Plan","headline":"Protect
         your watch from normal wear and tear as well as accidental damage.","acceptButton":"Add
-        protection","planBannerBestSeller":"Best Seller!"},"updatedAt":1635969952105,"planId":"A1-AAWAT-1y","locale":"en_US"}},"merchantLogo":"https://extendcoreapidemoextendc-storelogosbucket03b65aac-zpk5o5uvjj5d.s3.amazonaws.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/logo-971dd13e-3268-480f-b7b0-154b308eb4a5.png","plans":{"adh":[{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":12,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":8499,"title":"Extend
+        protection","planBannerBestSeller":"Best Seller!"},"updatedAt":1636056310178,"planId":"A1-AAWAT-1y","locale":"en_US"}},"merchantLogo":"https://extendcoreapidemoextendc-storelogosbucket03b65aac-zpk5o5uvjj5d.s3.amazonaws.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/logo-971dd13e-3268-480f-b7b0-154b308eb4a5.png","plans":{"adh":[{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":12,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":8499,"title":"Extend
         Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-1y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-1y"},{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":24,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":11900,"title":"Extend
         Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-2y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-2y"},{"contract":{"coverageIncludes":"adh","serviceType":"repair_depot","replacementType":"new","termLength":36,"deductible":0,"coverageStarts":"immediate","category":"jewelry"},"currencyCode":"USD","price":16900,"title":"Extend
         Protection Plan with Accident Coverage - Watch","id":"A1-AAWAT-3y","imageUrl":"https://sdk.helloextend.com/extend_icon.png","url":"https://demo.customers.extend.com/plan_details/A1-AAWAT-3y"}],"base":[],"roadhazard":[],"recommended":"adh"},"product":{"listPrice":160000,"imageUrl":"https://s3.amazonaws.com/touchofmodern-production/products/001/996/494/1e1783b1ba420e46c9073056868d955d_medium.jpg?1603732198","title":"Garmin
         Marq Aviator Performance Edition Modern Tool Watch // 010-02567-10"}}'
-  recorded_at: Thu, 04 Nov 2021 17:57:03 GMT
+  recorded_at: Thu, 04 Nov 2021 23:04:04 GMT
 recorded_with: VCR 6.0.0
