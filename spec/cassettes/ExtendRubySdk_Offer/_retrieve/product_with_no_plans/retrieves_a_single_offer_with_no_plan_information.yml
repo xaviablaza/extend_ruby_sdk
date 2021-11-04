@@ -1,8 +1,8 @@
 ---
 http_interactions:
 - request:
-    method: delete
-    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/non_existent_reference_id
+    method: get
+    uri: https://api-demo.helloextend.com/offers?productId=2324f800-7575-4c65-bd2c-588c89e8ab7f&storeId=e6f902e9-9942-4fcb-9b23-29975ee18dfc
     body:
       encoding: US-ASCII
       string: ''
@@ -19,38 +19,39 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 200
+      message: OK
     headers:
       Content-Type:
       - application/json
       Content-Length:
-      - '81'
+      - '290'
       Connection:
       - keep-alive
       Date:
-      - Thu, 04 Nov 2021 22:40:49 GMT
+      - Thu, 04 Nov 2021 23:04:04 GMT
       X-Amzn-Requestid:
-      - 2d938b0a-b3e4-4977-99cc-c2d35ca6a72e
+      - 675415de-2fd3-4f99-a6ee-b3b303734588
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - ITQpvFyJIAMF3lQ=
+      - ITUDvHFMoAMF_Hg=
+      Cache-Control:
+      - max-age=600
       X-Amzn-Trace-Id:
-      - Root=1-61846171-27223fed40d66f3b3b662ede
+      - Root=1-618466e4-14c53bd708f1538d236dbe29
       Access-Control-Allow-Credentials:
       - 'true'
       X-Cache:
-      - Error from cloudfront
+      - Miss from cloudfront
       Via:
-      - 1.1 57827d2e1d333a2c5c0e53aa1e31a894.cloudfront.net (CloudFront)
+      - 1.1 b1aa6746ecfb94d1735d9696d34a0cc8.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
       - ORD52-C3
       X-Amz-Cf-Id:
-      - GBXpEdL-bIcfi2B7O1fJ1Ok0Y8jviykmHg3_Vw5KB2BWagE7uGfmXQ==
+      - 0kqXIA-FE-wDYwu0VaOqSEObtSPrisiZy-w5v6R_jhSWsCZ6kczsQQ==
     body:
       encoding: UTF-8
-      string: '{"code":"resource_not_found","message":"The resource requested cannot
-        be found."}'
-  recorded_at: Thu, 04 Nov 2021 22:40:49 GMT
+      string: '{"marketing":{},"merchantLogo":"https://extendcoreapidemoextendc-storelogosbucket03b65aac-zpk5o5uvjj5d.s3.amazonaws.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/logo-971dd13e-3268-480f-b7b0-154b308eb4a5.png","plans":{"adh":[],"base":[],"roadhazard":[],"recommended":"base"},"product":{}}'
+  recorded_at: Thu, 04 Nov 2021 23:04:04 GMT
 recorded_with: VCR 6.0.0

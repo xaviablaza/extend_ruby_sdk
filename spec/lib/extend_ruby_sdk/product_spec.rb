@@ -10,7 +10,7 @@ RSpec.describe ExtendRubySdk::Product do
     it 'retrieves a single product', { vcr: { record: :once, match_requests_on: %i[method] } } do
       client = ExtendRubySdk::Client.new(sandbox: true)
       product = described_class.retrieve(
-        "2324f800-7575-4c65-bd2c-588c89e8ab7f",
+        "2324f800-7575-4c65-bd2c-588c89e8ab7d",
         client: client,
         store_id: 'e6f902e9-9942-4fcb-9b23-29975ee18dfc'
       )
@@ -42,7 +42,7 @@ RSpec.describe ExtendRubySdk::Product do
             'amount' => 1999
           },
           'title' => 'Explosive Tennis Balls',
-          "referenceId" => "2324f800-7575-4c65-bd2c-588c89e8ab7f",
+          "referenceId" => "2324f800-7575-4c65-bd2c-588c89e8ab7d",
           'parentReferenceId' => "2324f800-7575-4c65-bd2c-588c89e8ab7f",
           'identifiers' => {
             'sku' => 'SAMPLE-SKU',
@@ -68,7 +68,7 @@ RSpec.describe ExtendRubySdk::Product do
     it 'deletes a single product', { vcr: { record: :once, match_requests_on: %i[method] } } do
       client = ExtendRubySdk::Client.new(sandbox: true)
       response = described_class.delete(
-        "2324f800-7575-4c65-bd2c-588c89e8ab7f",
+        "2324f800-7575-4c65-bd2c-588c89e8ab7d",
         client: client,
         store_id: 'e6f902e9-9942-4fcb-9b23-29975ee18dfc'
       )

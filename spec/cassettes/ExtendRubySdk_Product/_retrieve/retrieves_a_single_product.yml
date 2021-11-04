@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/2324f800-7575-4c65-bd2c-588c89e8ab7f
+    uri: https://api-demo.helloextend.com/stores/e6f902e9-9942-4fcb-9b23-29975ee18dfc/products/2324f800-7575-4c65-bd2c-588c89e8ab7d
     body:
       encoding: US-ASCII
       string: ''
@@ -25,36 +25,35 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '756'
+      - '779'
       Connection:
       - keep-alive
       Date:
-      - Fri, 01 Oct 2021 10:35:34 GMT
+      - Thu, 04 Nov 2021 22:40:08 GMT
       X-Amzn-Requestid:
-      - ef80b4b8-5f5e-4db8-865e-13ca1b636a7b
+      - 3cac679b-f559-4fee-ba3f-77398b888e56
       Access-Control-Allow-Origin:
       - "*"
       X-Amz-Apigw-Id:
-      - GhiiDHAKoAMFfgA=
+      - ITQi7FYZoAMFXrw=
       X-Amzn-Trace-Id:
-      - Root=1-6156e473-23ac637745bc86932bf6310d
+      - Root=1-61846145-430a62b63ba3d99a643fe3cf
       Access-Control-Allow-Credentials:
       - 'true'
-      X-Edge-Origin-Shield-Skipped:
-      - '0'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 524b1c81c238e5098303bf1ee05a952f.cloudfront.net (CloudFront)
+      - 1.1 b80869c0f0a844797833659d14545a32.cloudfront.net (CloudFront)
       X-Amz-Cf-Pop:
-      - LAX50-C3
+      - ORD52-C3
       X-Amz-Cf-Id:
-      - WoNepreDd1-W8kl8V4TWMUXyZSi91Q8P55a5buE-Xa-HrXW3qbNDaw==
+      - xVgfl0j1g7t4D535fRy20iKJHYNDv60BnaBSSevpk8rcyt60EOkkMQ==
     body:
       encoding: UTF-8
-      string: '{"parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","reimbursementAmount":{"amount":1999,"currencyCode":"USD"},"createdAt":1633083933786,"storeId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","enabled":true,"imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","updatedAt":1633083933786,"identifiers":{"upc":"0123456789012","gtin":"012345678901234","asin":"0123456789","sku":"SAMPLE-SKU","barcode":"123"},"category":"Sample
+      string: '{"parentReferenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","reimbursementAmount":{"amount":1999,"currencyCode":"USD"},"createdAt":1636065570747,"brand":"Sample
+        Brand","storeId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","enabled":true,"imageUrl":"https://i.picsum.photos/id/946/200/300.jpg?hmac=4NmmK793hUBmx2qGX9mbsWLk9AF6kGjngYA9C-RMyJQ","updatedAt":1636065570747,"identifiers":{"upc":"0123456789012","gtin":"012345678901234","asin":"0123456789","sku":"SAMPLE-SKU","barcode":"123"},"category":"Sample
         Category","mfrWarranty":{"parts":12,"url":"http://example.com","labor":12},"warrantyStatus":"pending","description":"Sample
         Description","price":{"amount":1999,"currencyCode":"USD"},"title":"Explosive
-        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7f","plans":[]}'
-  recorded_at: Fri, 01 Oct 2021 10:35:34 GMT
+        Tennis Balls","referenceId":"2324f800-7575-4c65-bd2c-588c89e8ab7d","plans":[]}'
+  recorded_at: Thu, 04 Nov 2021 22:40:08 GMT
 recorded_with: VCR 6.0.0
