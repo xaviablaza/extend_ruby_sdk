@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://api-demo.helloextend.com/contracts/90b0ea91-b80a-46c4-b57c-269e5ec19a7c
+    body:
+      encoding: UTF-8
+      string: '{"customer":{"phone":"234-567-8901","email":"user@gmail.com","name":"Alex
+        Doe","billingAddress":{"address1":"1025 Sansome Street","address2":"","city":"San
+        Francisco","countryCode":"US","postalCode":"94111","provinceCode":"CA"},"shippingAddress":{"address1":"1025
+        Sansome Street","address2":"","city":"San Francisco","countryCode":"US","postalCode":"94111","provinceCode":"CA"}},"product":{"serialNumber":"ABCD123456"}}'
+    headers:
+      Content-Type:
+      - application/json
+      X-Extend-Access-Token:
+      - eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImZkYzc4OTc3LWY5MDAtNGNhZC1iZGI3LTk1MzBmMjc3ODkzOCJ9.eyJlbWFpbCI6ImRldi50ZWFtQHRvdWNob2Ztb2Rlcm4uY29tIiwiYWNjb3VudElkIjoiODI1MTVkYmItMjIyNC00OTQyLTg1Y2EtYmRlMTI1ZmU4ZWMxIiwic2NvcGUiOiJkZWZhdWx0IiwiZ3R5IjoicGFzc3dvcmQiLCJpYXQiOjE2MzMwODM1MzksImV4cCI6MjU1MDM1Mzg0MzM4LCJpc3MiOiJhcGktZGVtby5oZWxsb2V4dGVuZC5jb20iLCJzdWIiOiIzOGY2MzE4ZC1kZTkwLTRhY2YtOTViYi04OTlmMDQ1N2Y1YmQiLCJqdGkiOiJBMSpnfmpubypQeFZyRzsyT3JIVCJ9.mnLdJi-DI97Z6fP92f-e9aC2dQnAz99Uac8PNaGCpqRAvWbohdyLeMGRxDpXq7ot7f2fG6suOEpz3rspgZvGRA
+      Accept:
+      - application/json; version=2021-04-01
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1937'
+      Connection:
+      - keep-alive
+      Date:
+      - Thu, 04 Nov 2021 19:48:47 GMT
+      X-Amzn-Requestid:
+      - cb916ccb-8f0a-40dc-bfcd-6e3c8ea21016
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Amz-Apigw-Id:
+      - IS3cYH4xoAMFi2w=
+      X-Amzn-Trace-Id:
+      - Root=1-6184391b-03e6652930b3cc622d94a965
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0146c8129cacdacca96753291cf27ec4.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - EWR53-P1
+      X-Amz-Cf-Id:
+      - cuMVXUHJkzSk9DQk2WyWd4RmIFp5vpM2rp_gW5q1jdZ-moMhX6cgIA==
+    body:
+      encoding: UTF-8
+      string: '{"currency":"USD","status":"live","isTest":true,"sellerId":"e6f902e9-9942-4fcb-9b23-29975ee18dfc","transactionDate":1563388069000,"product":{"fulfillmentDate":1636052939147,"serialNumber":"ABCD123456","purchasePrice":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"},"title":"Garmin
+        Marq Aviator Performance Edition Modern Tool Watch // 010-02567-10","transactionDate":1563388069000,"referenceId":"2068262","transactionId":"99999999","manufacturerWarrantyLengthParts":12,"imageUrl":"https://s3.amazonaws.com/touchofmodern-production/products/001/996/494/1e1783b1ba420e46c9073056868d955d_medium.jpg?1603732198","manufacturerWarrantyLengthLabor":12,"reimbursementAmount":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"},"sku":"010-02567-10","brand":"Garmin
+        MARQ","listPrice":{"amount":160000,"currencyCode":"USD","formattedAmount":"$1,600.00"}},"terms":{"termsId":"ALLPRODFORTEGRA","version":"3"},"transactionTotal":{"amount":170000,"currencyCode":"USD","formattedAmount":"$1,700.00"},"plan":{"planId":"A1-AAWAT-1y","purchasePrice":{"amount":8499,"currencyCode":"USD","formattedAmount":"$84.99"},"planSku":"EXTWATCH9","subcategory":"Watches","category":"service_contract","expectedPrice":{"amount":8499,"currencyCode":"USD","formattedAmount":"$84.99"}},"createdAt":1636052939147,"source":{"channel":"web","agentId":"partner1234","locationId":"store573","platform":"magento","integratorId":"netsuite"},"sellerName":"Touch
+        of Modern","transactionId":"99999999","poNumber":"ABC-123","updatedAt":1636055327765,"customer":{"name":"Alex
+        Doe","shippingAddress":{"city":"San Francisco","address1":"1025 Sansome Street","countryCode":"US","provinceCode":"CA","postalCode":"94111"},"billingAddress":{"city":"San
+        Francisco","address1":"1025 Sansome Street","countryCode":"US","provinceCode":"CA","postalCode":"94111"},"phone":"234-567-8901","email":"user@gmail.com"},"id":"90b0ea91-b80a-46c4-b57c-269e5ec19a7c"}'
+  recorded_at: Thu, 04 Nov 2021 19:48:47 GMT
+recorded_with: VCR 6.0.0

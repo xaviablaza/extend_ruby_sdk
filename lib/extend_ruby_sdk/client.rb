@@ -20,6 +20,10 @@ module ExtendRubySdk
       HTTParty.post(url(path), { body: body.to_json, headers: headers })
     end
 
+    def put(path, body = {}, headers = default_put_headers)
+      HTTParty.put(url(path), { body: body.to_json, headers: headers })
+    end
+
     def delete(path, headers = default_delete_headers)
       HTTParty.delete(url(path), { headers: headers })
     end
@@ -54,6 +58,10 @@ module ExtendRubySdk
     end
 
     def default_post_headers
+      default_get_headers
+    end
+
+    def default_put_headers
       default_get_headers
     end
 

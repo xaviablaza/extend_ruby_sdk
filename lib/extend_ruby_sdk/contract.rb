@@ -18,7 +18,16 @@ module ExtendRubySdk
         build contract
       end
 
+      def update(contract_id, data:, client:)
+        contract = client.put(contract_path(contract_id), data)
+        build contract
+      end
+
       private
+
+      def contract_path(contract_id)
+        "contracts/#{contract_id}"
+      end
 
       def path(store_id)
         "stores/#{store_id}/contracts"

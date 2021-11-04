@@ -1,6 +1,51 @@
 require 'spec_helper'
 
 RSpec.describe ExtendRubySdk::Contract do
+  describe ".update" do
+    before do
+      ExtendRubySdk.configure do |c|
+        c.access_token = CONFIG[:access_token]
+      end
+    end
+    context "with valid plan id and product id" do
+      it "returns an updated contract", { vcr: { record: :once, match_requests_on: %i[method] } } do
+        client = ExtendRubySdk::Client.new(sandbox: true)
+        contract_id = "90b0ea91-b80a-46c4-b57c-269e5ec19a7c"
+        contract = described_class.update(
+          contract_id,
+          data: {
+            "customer": {
+              "phone": "234-567-8901",
+              "email": "user@gmail.com",
+              "name": "Alex Doe",
+              "billingAddress": {
+                "address1": "1025 Sansome Street",
+                "address2": "",
+                "city": "San Francisco",
+                "countryCode": "US",
+                "postalCode": "94111",
+                "provinceCode": "CA"
+              },
+              "shippingAddress": {
+                "address1": "1025 Sansome Street",
+                "address2": "",
+                "city": "San Francisco",
+                "countryCode": "US",
+                "postalCode": "94111",
+                "provinceCode": "CA"
+              }
+            },
+            "product": {
+              "serialNumber": "ABCD123456"
+            }
+          },
+          client: client
+        )
+
+        expect(contract).to be_a(ExtendRubySdk::Contract)
+      end
+    end
+  end
   describe '.create' do
     before do
       ExtendRubySdk.configure do |c|
